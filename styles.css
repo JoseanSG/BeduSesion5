@@ -1,4 +1,4 @@
-*{
+/* *{
     margin: 0;
     padding: 0;
     border: 0;
@@ -36,4 +36,34 @@ nav > ul > li > a{
 .actions > a{
     text-decoration: none;
     margin: 0px 10px 0px 10px;
+} */
+
+body{
+    background-color: bisque;
+}
+
+.h1-title{
+    font-family: 'IBM Plex Sans', Arial, sans-serif;
+    font-size: 60px;
+    color: chocolate;
+}
+
+@media (max-width: 575px){
+    body{
+        background-color: yellow;
+    }
+
+    .navbar,
+    .actions {
+        display: none;
+    }
+
+    .h1-title{
+        font-size: 30px;
+        color: orangered;
+    }
+
+    .banner > img {
+        width: 100%;
+      }
 }
