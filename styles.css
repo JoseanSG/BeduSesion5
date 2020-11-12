@@ -40,13 +40,14 @@ nav > ul > li > a{
 
 body{
     background-color: bisque;
+    font-family: 'IBM Plex Sans', Arial, sans-serif;
 }
 
-.h1-title{
+/* .h1-title{
     font-family: 'IBM Plex Sans', Arial, sans-serif;
     font-size: 60px;
     color: chocolate;
-}
+} */
 
 @media (max-width: 575px){
     body{
@@ -58,12 +59,22 @@ body{
         display: none;
     }
 
-    .h1-title{
+    /* .h1-title{
         font-size: 30px;
         color: orangered;
-    }
+        display: none;
+    } */
 
     .banner > img {
         width: 100%;
       }
+
+    .publish > h3{
+        font-size: 30px;
+      }
+
+    .publish > p{
+          font-size: 20px;
+      }
+
 }
