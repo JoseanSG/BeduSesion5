@@ -77,4 +77,15 @@ body{
           font-size: 20px;
       }
 
+    .explanatory-video{
+          text-align: center;
+      }
+
+    .explanatory-video > video{
+        width: 100%;
+      }
+
+    .explanatory-video > img{
+          width: 50%;
+      }
 }
